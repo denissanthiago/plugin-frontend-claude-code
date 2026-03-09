@@ -1,0 +1,7 @@
+{
+  "name": "plugin-frontend",
+  "version": "1.0.0",
+  "description": "Frontend environment: React, Next.js, TypeScript, Tailwind, react-query, React Hook Form, Redux Toolkit, Yup, React Testing Library, Jest"
+}
+
+

@@ -1,0 +1,8 @@
+{
+  "typescript": {
+    "command": "npx",
+    "args": ["typescript-language-server", "--stdio"],
+    "languages": ["typescript", "typescriptreact", "javascript", "javascriptreact"],
+    "diagnostics": true
+  }
+}

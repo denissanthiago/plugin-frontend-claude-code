@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "file=\"$TOOL_INPUT_file_path\"; ext=\"${file##*.}\"; if [ \"$ext\" = \"ts\" ] || [ \"$ext\" = \"tsx\" ] || [ \"$ext\" = \"js\" ] || [ \"$ext\" = \"jsx\" ] || [ \"$ext\" = \"css\" ]; then npx prettier --write \"$file\"; npx eslint --fix \"$file\"; fi"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx tsc --noEmit"
+          }
+        ]
+      }
+    ]
+  }
+}
