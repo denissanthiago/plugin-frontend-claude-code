@@ -1,10 +1,17 @@
 {
   "name": "denissanthiago-plugins",
   "description": "Frontend development plugins by denissanthiago",
+  "owner": {
+    "name": "denissanthiago",
+    "url": "https://github.com/denissanthiago"
+  },
   "plugins": [
     {
       "name": "plugin-frontend",
-      "path": "."
+      "source": {
+        "type": "git",
+        "url": "https://github.com/denissanthiago/plugin-frontend-claude-code"
+      }
     }
   ]
 }
