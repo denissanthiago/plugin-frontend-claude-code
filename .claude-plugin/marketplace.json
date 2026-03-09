@@ -1,0 +1,10 @@
+{
+  "name": "denissanthiago-plugins",
+  "description": "Frontend development plugins by denissanthiago",
+  "plugins": [
+    {
+      "name": "plugin-frontend",
+      "path": "."
+    }
+  ]
+}
