@@ -1,17 +1,17 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "denissanthiago-plugins",
   "description": "Frontend development plugins by denissanthiago",
   "owner": {
     "name": "denissanthiago",
-    "url": "https://github.com/denissanthiago"
+    "email": "denissanthiago@gmail.com"
   },
   "plugins": [
     {
       "name": "plugin-frontend",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/denissanthiago/plugin-frontend-claude-code"
-      }
+      "description": "Frontend environment: React, Next.js, TypeScript, Tailwind, react-query, React Hook Form, Redux Toolkit, Yup, React Testing Library, Jest",
+      "source": ".",
+      "category": "development"
     }
   ]
 }
