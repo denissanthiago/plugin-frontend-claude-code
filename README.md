@@ -5,7 +5,14 @@ Claude Code plugin for frontend development: React, Next.js, TypeScript, Tailwin
 ## Installation
 
 ```bash
-claude plugin install <repo-url>
+claude --plugin-dir /path/to/plugin-frontend
+```
+
+Or create a symlink in your project for persistent use:
+
+```bash
+mkdir -p .claude/plugins
+ln -s /path/to/plugin-frontend .claude/plugins/plugin-frontend
 ```
 
 ## Recommended Configuration
